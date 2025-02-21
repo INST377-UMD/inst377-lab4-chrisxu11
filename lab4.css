@@ -1,0 +1,21 @@
+body{
+    background-color: cyan;
+}
+.container1,.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .section {
+    background-color: purple;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+  }
