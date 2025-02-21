@@ -55,8 +55,10 @@
             let validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
             if (validation.test(text)) {
                 alert("How about nah...");
-            } 
             return false;
+            }
+            alert("Text is valid");
+            return false
         }
         
         function addText() {
